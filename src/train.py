@@ -3,7 +3,7 @@ from sklearn.neighbors import KNeighborsClassifier
 import joblib
 
 # Load data
-df = pd.read_csv('data/iris.csv')
+df = pd.read_csv('data/iris.data')
 X = df.drop('Iris-setosa', axis=1)
 y = df['Iris-setosa']
 
